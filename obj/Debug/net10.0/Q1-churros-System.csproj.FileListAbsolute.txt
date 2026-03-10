@@ -1,0 +1,14 @@
+C:\Users\91623\Desktop\Abin Sebastian-20089590\Q1-churros-System\bin\Debug\net10.0\Q1-churros-System.exe
+C:\Users\91623\Desktop\Abin Sebastian-20089590\Q1-churros-System\bin\Debug\net10.0\Q1-churros-System.deps.json
+C:\Users\91623\Desktop\Abin Sebastian-20089590\Q1-churros-System\bin\Debug\net10.0\Q1-churros-System.runtimeconfig.json
+C:\Users\91623\Desktop\Abin Sebastian-20089590\Q1-churros-System\bin\Debug\net10.0\Q1-churros-System.dll
+C:\Users\91623\Desktop\Abin Sebastian-20089590\Q1-churros-System\bin\Debug\net10.0\Q1-churros-System.pdb
+C:\Users\91623\Desktop\Abin Sebastian-20089590\Q1-churros-System\obj\Debug\net10.0\Q1-churros-System.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\91623\Desktop\Abin Sebastian-20089590\Q1-churros-System\obj\Debug\net10.0\Q1-churros-System.AssemblyInfoInputs.cache
+C:\Users\91623\Desktop\Abin Sebastian-20089590\Q1-churros-System\obj\Debug\net10.0\Q1-churros-System.AssemblyInfo.cs
+C:\Users\91623\Desktop\Abin Sebastian-20089590\Q1-churros-System\obj\Debug\net10.0\Q1-churros-System.csproj.CoreCompileInputs.cache
+C:\Users\91623\Desktop\Abin Sebastian-20089590\Q1-churros-System\obj\Debug\net10.0\Q1-churros-System.dll
+C:\Users\91623\Desktop\Abin Sebastian-20089590\Q1-churros-System\obj\Debug\net10.0\refint\Q1-churros-System.dll
+C:\Users\91623\Desktop\Abin Sebastian-20089590\Q1-churros-System\obj\Debug\net10.0\Q1-churros-System.pdb
+C:\Users\91623\Desktop\Abin Sebastian-20089590\Q1-churros-System\obj\Debug\net10.0\Q1-churros-System.genruntimeconfig.cache
+C:\Users\91623\Desktop\Abin Sebastian-20089590\Q1-churros-System\obj\Debug\net10.0\ref\Q1-churros-System.dll
