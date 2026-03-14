@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 
 class Program
@@ -104,5 +104,47 @@ class Program
         {
             Console.WriteLine("No orders in queue.");
         }
+    }
+}
+
+public class Order
+{
+    public int orderNumber;
+    public string itemName;
+    public int quantity;
+    public double totalbill;
+
+    // constructor
+    public Order(int number, string name, int qty, double price)
+    {
+        orderNumber = number;
+        itemName = name;
+        quantity = qty;
+        totalbill = qty * price;
+    }
+
+    // method to return bill
+    public double Getbill()
+    {
+        return totalbill;
+    }
+
+    // method when order is collected
+    public void Collectorder()
+    {
+        Console.WriteLine("Order " + orderNumber + " is ready to collect.");
+    }
+}
+
+public class Churros
+{
+    public string name;
+    public double price;
+
+    // constructor
+    public Churros(string n, double p)
+    {
+        name = n;
+        price = p;
     }
 }
