@@ -23,10 +23,8 @@ It allows a user to place churros orders and deliver them using a queue data str
 1. The program shows a menu with options.
 2. The user can place an order by choosing a churros type and quantity.
 3. The order is added to a queue.
-4. When delivering an order, the first order in the queue is delivered.(FIFO)
+4. When delivering an order, the first order in the queue is delivered.(FIFO-First In First Out)
 
 ## Files in the Project:
-- **Program.cs** – Contains the main program and menu.
-- **Order.cs** – Contains the order details.
-- **Churros.cs** – Contains churros types and prices.
+- **Program.cs** – Contains the main program, Order class, and Churros class.
 - **Screenshots** – Contains screenshots of the program output.
