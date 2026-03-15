@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\91623\\Desktop\\Abin Sebastian-20089590\\Q2-Periodic-Table\\Q2-Periodic-Table.csproj",
+      "projectUniqueName": "C:\\Users\\91623\\Desktop\\Abin Sebastian-20089590\\Q2-Periodic-Table\\Q2-Periodic-Table.csproj",
       "projectName": "Q2-Periodic-Table",
-      "projectPath": "c:\\Users\\91623\\Desktop\\Abin Sebastian-20089590\\Q2-Periodic-Table\\Q2-Periodic-Table.csproj",
+      "projectPath": "C:\\Users\\91623\\Desktop\\Abin Sebastian-20089590\\Q2-Periodic-Table\\Q2-Periodic-Table.csproj",
       "packagesPath": "C:\\Users\\91623\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\91623\\Desktop\\Abin Sebastian-20089590\\Q2-Periodic-Table\\obj\\",
+      "outputPath": "C:\\Users\\91623\\Desktop\\Abin Sebastian-20089590\\Q2-Periodic-Table\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\91623\\AppData\\Roaming\\NuGet\\NuGet.Config"
