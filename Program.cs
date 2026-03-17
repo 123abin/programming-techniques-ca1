@@ -21,3 +21,29 @@ class Program
         } while (choice != 0);
     }
 }
+
+public class Order
+{
+    public int orderNumber;
+    public string itemName;
+    public int quantity;
+    public double totalbill;
+
+    public Order(int number, string name, int qty, double price)
+    {
+        orderNumber = number;
+        itemName = name;
+        quantity = qty;
+        totalbill = qty * price;
+    }
+
+    public double GetBill()
+    {
+        return totalbill;
+    }
+
+    public void CollectOrder()
+    {
+        Console.WriteLine("Order " + orderNumber + " is ready to collect.");
+    }
+}
