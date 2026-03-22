@@ -1,6 +1,5 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
-
 class Program
 {
     static Queue<Order> orderQueue = new Queue<Order>();
@@ -30,8 +29,7 @@ class Program
             }
         } while (choice != 0);
     }
-
-    static void PlaceOrder()
+          static void PlaceOrder()
 {
     Console.WriteLine("\nChoose Churros Type:");
     Console.WriteLine("1. Plain Sugar (€6)");
@@ -84,5 +82,47 @@ class Program
 
     orderNumber++;
 }
+
+     static void DeliverOrder()
+    {
+        if (orderQueue.Count > 0)
+        {
+            Order orderToDeliver = orderQueue.Dequeue();
+            orderToDeliver.CollectOrder();
+        }
+        else
+        {
+            Console.WriteLine("No orders in the queue.");
+        }
+
+    }
+
+
+}
+
+public class Order
+{
+    public int orderNumber;
+    public string itemName;
+    public int quantity;
+    public double totalbill;
+
+    public Order(int number, string name, int qty, double price)
+    {
+        orderNumber = number;
+        itemName = name;
+        quantity = qty;
+        totalbill = qty * price;
+    }
+
+    public double GetBill()
+    {
+        return totalbill;
+    }
+
+    public void CollectOrder()
+    {
+        Console.WriteLine("Order " + orderNumber + " is ready to collect.");
+    }
 }
 
