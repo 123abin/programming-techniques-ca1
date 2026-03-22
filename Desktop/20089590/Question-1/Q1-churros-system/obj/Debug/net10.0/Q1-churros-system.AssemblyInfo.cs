@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Q1-churros-system")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1865504097b1870dce8c28aced98b101cc68a633")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+75d7e9bf5dc8c74b6b4b918d242eedf831aa78a7")]
 [assembly: System.Reflection.AssemblyProductAttribute("Q1-churros-system")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Q1-churros-system")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

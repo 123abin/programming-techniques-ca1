@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\91623\\Desktop\\20089590\\Question-1\\Q1-churros-system\\Q1-churros-system.csproj": {}
+    "C:\\Users\\91623\\Desktop\\20089590\\Question-1\\Q1-churros-system\\Q1-churros-system.csproj": {}
   },
   "projects": {
-    "c:\\Users\\91623\\Desktop\\20089590\\Question-1\\Q1-churros-system\\Q1-churros-system.csproj": {
+    "C:\\Users\\91623\\Desktop\\20089590\\Question-1\\Q1-churros-system\\Q1-churros-system.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\91623\\Desktop\\20089590\\Question-1\\Q1-churros-system\\Q1-churros-system.csproj",
+        "projectUniqueName": "C:\\Users\\91623\\Desktop\\20089590\\Question-1\\Q1-churros-system\\Q1-churros-system.csproj",
         "projectName": "Q1-churros-system",
-        "projectPath": "c:\\Users\\91623\\Desktop\\20089590\\Question-1\\Q1-churros-system\\Q1-churros-system.csproj",
+        "projectPath": "C:\\Users\\91623\\Desktop\\20089590\\Question-1\\Q1-churros-system\\Q1-churros-system.csproj",
         "packagesPath": "C:\\Users\\91623\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\91623\\Desktop\\20089590\\Question-1\\Q1-churros-system\\obj\\",
+        "outputPath": "C:\\Users\\91623\\Desktop\\20089590\\Question-1\\Q1-churros-system\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\91623\\AppData\\Roaming\\NuGet\\NuGet.Config"
