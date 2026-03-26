@@ -13,6 +13,11 @@ class Program
         elements.Add(4, "Beryllium");
         elements.Add(5, "Boron");
 
-        Console.WriteLine("Elements added successfully");
+        Console.WriteLine("Elements List:");
+
+        foreach (var element in elements)
+        {
+            Console.WriteLine(element.Key + " - " + element.Value);
+        }
     }
 }
