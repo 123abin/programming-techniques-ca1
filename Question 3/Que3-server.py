@@ -25,6 +25,13 @@ name, address, pps, license = data.split(",")
 cursor.execute("INSERT INTO customers (name, address, pps, license) VALUES (?, ?, ?, ?)", (name, address, pps, license))
 conn_db.commit()
 
+reg_id = cursor.lastrowid
+registration_number = f"REG{reg_id}"
+
+print("Registration Number:", registration_number)
+
+conn.send(registration_number.encode())
+
 print("Data stored in the database!")
 
 conn.close()
