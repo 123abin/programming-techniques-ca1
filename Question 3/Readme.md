@@ -29,15 +29,23 @@ The server stores the data in a database and sends back a registration number.
 ## Output
 
 Client:
+
 Enter name: Abin
+
 Enter Address: Northwood dublin
+
 Enter PPS Number: 1234567
+
 Enter Driving License: DL007
+
 Your Registration Number: REG2
 
 ---
 
 Server:
+
 Received: Abin,Northwood dublin,1234567,DL007
+
 Registration Number: REG2
+
 Data stored in the database!
