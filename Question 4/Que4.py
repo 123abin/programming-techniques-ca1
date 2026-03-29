@@ -1,7 +1,16 @@
 import requests
+from bs4 import BeautifulSoup
 
 url = "https://books.toscrape.com/catalogue/category/books/travel_2/index.html"
 
 response = requests.get(url)
+soup = BeautifulSoup(response.text,"html.parser")
 
-print(response.text)
+books = soup.find_all("article",class_="product_pod")
+
+for book in books:
+    name = book.h3.a["title"]
+    price = book.find("p",class_="price_color").text
+    rating = book.p["class"][1]
+
+    print(name, price, rating)
