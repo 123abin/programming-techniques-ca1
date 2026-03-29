@@ -20,3 +20,10 @@ with open("books.csv", "w", newline="",encoding="utf-8") as file:
        writer.writerow([name, price, rating])
 
     print("Data saved to books.csv")
+
+with open("books.csv", "r", encoding ="utf-8") as file:
+    reader = csv.reader(file)
+
+    print("\nReading from CSV:\n")
+    for row in reader:
+        print(row)
