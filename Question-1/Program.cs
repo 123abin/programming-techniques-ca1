@@ -28,7 +28,32 @@ class Program
                 DeliverOrder();
             }
         } while (choice != 0);
+
+    Console.WriteLine("\n---- Running pay_bill() tests ----");
+
+    Order t1 = new Order(1, "Plain Sugar", 2, 6);
+    if (t1.GetBill() == 12)
+    Console.WriteLine("Test 1 successful");
+else
+    Console.WriteLine("Test 1 error");
+
+    Order t2 = new Order(2, "Chocolate Sauce", 3, 8);
+    if (t2.GetBill() == 24)
+    Console.WriteLine("Test 2 successful");
+else
+    Console.WriteLine("Test 2 error");
+
+    Order t3 = new Order(3, "Nutella", 1, 8);
+    if (t3.GetBill() == 8)
+    Console.WriteLine("Test 3 successful");
+else
+    Console.WriteLine("Test 3 error");
+
+    Console.WriteLine("-------------------------------");
+
+
     }
+
           static void PlaceOrder()
 {
     Console.WriteLine("\nChoose Churros Type:");
@@ -97,6 +122,7 @@ class Program
 
     }
 
+  
 
 }
 
